@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="icon" href="./src/icons8-spotify-50.png" />
+  </head>
+  <body class="bg-black text-white h-screen w-screen flex flex-col">
+    <div class="flex items-center gap-1 pl-6 pt-3 pb-3">
+      <div class="w-1 h-1 bg-zinc-400 rounded-full"></div>
+      <div class="w-1 h-1 bg-zinc-400 rounded-full"></div>
+      <div class="w-1 h-1 bg-zinc-400 rounded-full"></div>
+    </div>
+    <div class="flex flex-1">
+      <div class="flex flex-col gap-2">
+        <aside class="ml-2 mt- w-72 p-6 bg-zinc-950 rounded-lg">
+          <nav class="flex flex-col gap-5">
+            <a
+              href=""
+              class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white"
+            >
+              <i data-lucide="Home"></i>
+              Home
+            </a>
+            <a
+              href=""
+              class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white"
+            >
+              <i data-lucide="Search"></i> Search
+            </a>
+          </nav>
+        </aside>
+        <aside class="ml-2 w-72 p-3 bg-zinc-950 rounded-lg">
+          <div class="pt-3 pr-3 bg-zinc-950 rounded-lg">
+            <nav class="flex justify-center">
+              <a
+                href=""
+                class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white"
+              >
+                <i data-lucide="Library"></i>
+                Your Library
+              </a>
+              <div class="flex items-center justify-end flex-1 gap-4">
+                <a
+                  href="#"
+                  class="hover:bg-zinc-800/40 transition-colors rounded-full p-1"
+                  ><i
+                    data-lucide="plus"
+                    class="stroke-1 w-6 h-6 text-zinc-400"
+                  ></i
+                ></a>
+                <a
+                  href="#"
+                  class="hover:bg-zinc-800/40 transition-colors rounded-full p-1"
+                  ><i
+                    data-lucide="arrow-right"
+                    class="stroke-1 w-6 h-6 text-zinc-400"
+                  ></i
+                ></a>
+              </div>
+            </nav>
+            <nav class="flex justify-between mt-6">
+              <a
+                href="#"
+                class="items-center flex text-zinc-400 hover:bg-white/10 rounded-full p-1"
+              >
+                <i data-lucide="Search" class="stroke-2 w-5 h-5"></i>
+              </a>
+              <a
+                href="#"
+                class="items-center flex text-zinc-400 gap-1 text-sm hover:scale-105 hover:text-zinc-50"
+              >
+                Recents
+
+                <i data-lucide="menu"></i>
+              </a>
+            </nav>
+          </div>
+          <nav class="flex flex-col mt-8 gap-4">
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img src="./src/Screenshot_1.png" class="rounded-md" />
+              <div class="flex flex-col">
+                💙
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img src="./src/Screenshot_2.png" class="rounded-md" />
+              <div class="flex flex-col">
+                wike
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img src="./src/Screenshot_3.png" class="rounded-md" />
+              <div class="flex flex-col">
+                mano underground
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img
+                src="./src/Screenshot_4.png"
+                width="50px"
+                height="50px"
+                class="rounded-md"
+              />
+              <div class="flex flex-col">
+                Gigi 💜
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img src="./src/Screenshot_5.png" class="rounded-md" />
+              <div class="flex flex-col">
+                🐥
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img src="./src/Screenshot_6.png" class="rounded-md" />
+              <div class="flex flex-col">
+                o Menino Ainda Encanta..
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img src="./src/Screenshot_7.png" class="rounded-md" />
+              <div class="flex flex-col">
+                Evol
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img src="./src/Screenshot_8.png" class="rounded-md" />
+              <div class="flex flex-col">
+                🎂
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
+            </a>
+            <a
+              href="#"
+              class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
+            >
+              <img src="./src/Screenshot_12.png" class="rounded-md" />
+              <div class="flex flex-col">playlist de musica braba</div>
+            </a>
+          </nav>
+        </aside>
+      </div>
+      <main class="flex-1 bg-zinc-900 p-6 mt-0 mx-2 rounded-lg">
+        <div class="flex items-center gap-2">
+          <button class="p-1 rounded-full bg-black/40">
+            <i data-lucide="Chevron-Left"></i>
+          </button>
+          <button class="p-1 rounded-full bg-black/40">
+            <i data-lucide="Chevron-Right"></i>
+          </button>
+        </div>
+        <div class="flex p-4 bg-white/10 mx-20 rounded-md">
+          <img src="./src/Screenshot_11.png" />
+          <div class="flex flex-col pl-6 pt-4">
+            <div class="flex flex-col justify-center">
+              <p class="text-white">Playlist</p>
+              <a href="" class="hover:underline">
+                <h1 class="font-bold text-6xl">This is Yaya Bey</h1>
+              </a>
+            </div>
+            <div class="mt-8">
+              <p class="text-zinc-200 font-medium">LISTEN NOW</p>
+              <div class="pt-4 flex items-center">
+                <button
+                  class="bg-green-600 w-28 h-12 rounded-full mr-2 text-black font-semibold hover:scale-105"
+                >
+                  Play
+                </button>
+                <button
+                  class="border border-zinc-400 w-32 h-12 rounded-full hover:scale-105 hover:border-zinc-50 mr-4"
+                >
+                  Follow
+                </button>
+                <a href="" class="hover:scale-105 hover:text-white">
+                  <i
+                    data-lucide="more-horizontal"
+                    class="w-5 h-5 text-zinc-400"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 class="text-4xl mt-5 font-bold">Good evening</h1>
+        <div class="grid grid-cols-3 gap-4 mt-4">
+          <a
+            href="#"
+            class="bg-white/10 rounded group flex items-center gap-2 hover:bg-white/20 transition-colors"
+          >
+            <img src="./src/Screenshot_1.png" width="62" height="62" alt="💙" />
+            <strong>💙</strong>
+            <button
+              class="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"
+            >
+              <i data-lucide="play"></i>
+            </button>
+          </a>
+          <a
+            href="#"
+            class="bg-white/10 rounded group flex items-center gap-2 hover:bg-white/20 transition-colors"
+          >
+            <img
+              src="./src/Screenshot_2.png"
+              width="62"
+              height="62"
+              alt="wike"
+            />
+
+            <strong>wike</strong>
+            <button
+              class="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"
+            >
+              <i data-lucide="play"></i>
+            </button>
+          </a>
+          <a
+            href="#"
+            class="bg-white/10 rounded group flex items-center gap-2 hover:bg-white/20 transition-colors"
+          >
+            <img
+              src="./src/Screenshot_3.png"
+              width="62"
+              height="62"
+              alt="mano underground"
+            />
+            <strong>mano underground</strong>
+            <button
+              class="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"
+            >
+              <i data-lucide="play"></i>
+            </button>
+          </a>
+          <a
+            href="#"
+            class="bg-white/10 rounded group flex items-center gap-2 hover:bg-white/20 transition-colors"
+          >
+            <img src="./src/Screenshot_4.png" width="62" height="62" alt="" />
+            <strong>Gigi 💜</strong>
+            <button
+              class="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"
+            >
+              <i data-lucide="play"></i>
+            </button>
+          </a>
+
+          <a
+            href="#"
+            class="bg-white/10 group rounded flex items-center gap-2 hover:bg-white/20 transition-colors"
+          >
+            <img src="./src/Screenshot_5.png" width="62" height="62" alt="" />
+            <strong>🐥</strong>
+            <button
+              class="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"
+            >
+              <i data-lucide="play"></i>
+            </button>
+          </a>
+
+          <a
+            href="#"
+            class="bg-white/10 rounded group flex items-center gap-2 hover:bg-white/20 transition-colors"
+          >
+            <img src="./src/Screenshot_6.png" width="62" height="62" alt="" />
+            <strong>O Menino Ainda Encanta A Quebrada</strong>
+            <button
+              class="w-12 h-12 flex items-center justify-center pl-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible"
+            >
+              <i data-lucide="play"></i>
+            </button>
+          </a>
+        </div>
+        <div class="flex justify-between mt-5">
+          <a href="#" class="hover:underline">
+            <h2 class="text-2xl font-semibold">Made For leleo</h2>
+          </a>
+
+          <a
+            href="#"
+            class="mt-2 text-zinc-400 text-sm font-bold hover:underline"
+          >
+            Show all
+          </a>
+        </div>
+        <div class="grid grid-cols-7 gap-4 mt-4">
+          <a
+            href="#"
+            class="bg-zinc-950/40 rounded-md flex p-4 flex-col gap-2 hover:bg-white/5 transition-colors"
+          >
+            <img src="./src/Screenshot_13.png" alt="#" class="h-24" />
+
+            <strong class="font-semibold">Daily Mix</strong>
+            <span class="text-sm text-zinc-500"
+              >KayBlack, Matuê, Veigh and more</span
+            >
+          </a>
+          <a
+            href="#"
+            class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
+          >
+            <img src="./src/Screenshot_14.png" alt="#" class="h-24" />
+            <strong class="font-semibold">Daily Mix</strong>
+            <span class="text-sm text-zinc-500"
+              >KayBlack, Matuê, Veigh and more</span
+            >
+          </a>
+          <a
+            href="#"
+            class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
+          >
+            <img src="./src/Screenshot_15.png" alt="#" class="h-24" />
+            <strong class="font-semibold">Daily Mix</strong>
+            <span class="text-sm text-zinc-500"
+              >KayBlack, Matuê, Veigh and more</span
+            >
+          </a>
+          <a
+            href="#"
+            class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
+          >
+            <img src="./src/Screenshot_16.png" alt="#" class="h-24" />
+            <strong class="font-semibold">Daily Mix</strong>
+            <span class="text-sm text-zinc-500"
+              >KayBlack, Matuê, Veigh and more</span
+            >
+          </a>
+          <a
+            href="#"
+            class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
+          >
+            <img src="./src/Screenshot_17.png" alt="#" class="h-24" />
+            <strong class="font-semibold">Daily Mix</strong>
+            <span class="text-sm text-zinc-500"
+              >KayBlack, Matuê, Veigh and more</span
+            >
+          </a>
+          <a
+            href="#"
+            class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
+          >
+            <img src="./src/Screenshot_18.png" alt="#" class="h-24" />
+            <strong class="font-semibold">Daily Mix</strong>
+            <span class="text-sm text-zinc-500"
+              >KayBlack, Matuê, Veigh and more</span
+            >
+          </a>
+          <a
+            href="#"
+            class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
+          >
+            <img src="./src/Screenshot_19.png" alt="#" class="h-24" />
+            <strong class="font-semibold">Daily Mix</strong>
+            <span class="text-sm text-zinc-500"
+              >KayBlack, Matuê, Veigh and more</span
+            >
+          </a>
+        </div>
+      </main>
+    </div>
+    <footer
+      class="bg-black h-20 px-6 py-4 flex flex-1 items-center justify-between overflow-x-hidden overflow-y-hidden"
+    >
+      <div class="flex items-center gap-3">
+        <img src="./src/Screenshot_20.png" alt="" />
+        <div class="flex flex-col">
+          <a href="#" class="hover:underline">
+            <strong class="text-xs font-semibold">right here</strong>
+          </a>
+          <a href="#" class="text-xs text-zinc-500"
+            ><span class="hover:underline">Lil Peep</span>,<span
+              class="hover:underline"
+              >Horse Head</span
+            ></a
+          >
+        </div>
+      </div>
+      <div class="flex flex-col items-center gap-1">
+        <div class="flex items-center gap-6">
+          <i
+            class="text-zinc-500 size-5 hover:text-zinc-50 scale-105"
+            data-lucide="Shuffle"
+          >
+          </i>
+          <i
+            class="text-zinc-500 size-5 hover:text-zinc-50 scale-105"
+            data-lucide="Skip-Back"
+          >
+          </i>
+          <button
+            class="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black hover:scale-105"
+          >
+            <i data-lucide="play"></i>
+          </button>
+          <i
+            class="text-zinc-500 size-5 hover:text-zinc-50 scale-105"
+            data-lucide="Skip-Forward"
+          >
+          </i>
+          <i
+            class="text-zinc-500 size-5 hover:text-zinc-50 scale-105"
+            data-lucide="repeat"
+          >
+          </i>
+        </div>
+        <div class="items-center flex gap-3">
+          <span class="text-xs text-zinc-400">0:37</span>
+          <div class="h-1 rounded-full w-96 bg-zinc-600">
+            <div class="bg-zinc-200 w-32 h-1 rounded-full"></div>
+          </div>
+          <span class="text-xs text-zinc-400">2:56</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#"
+          ><i
+            class="size-4 text-zinc-500 hover:text-zinc-50 scale-105"
+            data-lucide="play-square"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="size-4 text-zinc-500 hover:text-zinc-50 scale-105"
+            data-lucide="mic-2"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="size-4 text-zinc-500 hover:text-zinc-50 scale-105"
+            data-lucide="list-music"
+          ></i
+        ></a>
+        <a href="#">
+          <i
+            class="size-4 text-zinc-500 hover:text-zinc-50 scale-105"
+            data-lucide="monitor-smartphone"
+          ></i
+        ></a>
+        <a href="#"
+          ><i
+            class="size-4 text-zinc-500 hover:text-zinc-50 scale-105"
+            data-lucide="volume-2"
+          ></i
+        ></a>
+        <div class="h-1 rounded-full w-20 bg-zinc-600">
+          <div class="h-1 rounded-full w-7 bg-zinc-200"></div>
+        </div>
+        <a href="#"
+          ><i
+            class="size-4 text-zinc-500 hover:text-zinc-50 scale-105"
+            data-lucide="maximize-2"
+          ></i
+        ></a>
+      </div>
+    </footer>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
