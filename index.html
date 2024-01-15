@@ -22,25 +22,20 @@
     <link rel="icon" href="./src/icons8-spotify-50.png" />
   </head>
   <body class="bg-black text-white h-screen w-screen flex flex-col">
-    <div class="flex items-center gap-1 pl-6 pt-3 pb-3">
-      <div class="w-1 h-1 bg-zinc-400 rounded-full"></div>
-      <div class="w-1 h-1 bg-zinc-400 rounded-full"></div>
-      <div class="w-1 h-1 bg-zinc-400 rounded-full"></div>
-    </div>
     <div class="flex flex-1">
       <div class="flex flex-col gap-2">
-        <aside class="ml-2 mt- w-72 p-6 bg-zinc-950 rounded-lg">
-          <nav class="flex flex-col gap-5">
+        <aside class="ml-2 mt-1 w-72 p-6 bg-zinc-950 rounded-lg">
+          <nav class="flex flex-col gap-5 pr-14">
             <a
-              href=""
-              class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white"
+              href="#"
+              class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white transition-colors"
             >
               <i data-lucide="Home"></i>
               Home
             </a>
             <a
-              href=""
-              class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white"
+              href="#"
+              class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white transition-colors"
             >
               <i data-lucide="Search"></i> Search
             </a>
@@ -50,8 +45,8 @@
           <div class="pt-3 pr-3 bg-zinc-950 rounded-lg">
             <nav class="flex justify-center">
               <a
-                href=""
-                class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white"
+                href="#"
+                class="flex items-center gap-2 text-base font-semibold text-zinc-400 hover:text-white transition-colors"
               >
                 <i data-lucide="Library"></i>
                 Your Library
@@ -92,7 +87,7 @@
               </a>
             </nav>
           </div>
-          <nav class="flex flex-col mt-8 gap-4">
+          <nav class="flex flex-col mt-5 gap-4">
             <a
               href="#"
               class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
@@ -183,12 +178,15 @@
               class="text-zinc-100 text-base flex gap-2 hover:bg-zinc-800/25 hover:rounded-lg"
             >
               <img src="./src/Screenshot_12.png" class="rounded-md" />
-              <div class="flex flex-col">playlist de musica braba</div>
+              <div class="flex flex-col">
+                🃏
+                <p class="text-zinc-600 text-sm">Playlist 🞄 Leleo</p>
+              </div>
             </a>
           </nav>
         </aside>
       </div>
-      <main class="flex-1 bg-zinc-900 p-6 mt-0 mx-2 rounded-lg">
+      <main class="flex-1 bg-zinc-900 p-6 mt-1 mx-2 rounded-lg">
         <div class="flex items-center gap-2">
           <button class="p-1 rounded-full bg-black/40">
             <i data-lucide="Chevron-Left"></i>
@@ -197,12 +195,14 @@
             <i data-lucide="Chevron-Right"></i>
           </button>
         </div>
-        <div class="flex p-4 bg-white/10 mx-20 rounded-md">
+        <div
+          class="flex p-4 bg-gradient-to-tr from-black to-white/5 mx-20 rounded-md"
+        >
           <img src="./src/Screenshot_11.png" />
           <div class="flex flex-col pl-6 pt-4">
             <div class="flex flex-col justify-center">
               <p class="text-white">Playlist</p>
-              <a href="" class="hover:underline">
+              <a href="#" class="hover:underline">
                 <h1 class="font-bold text-6xl">This is Yaya Bey</h1>
               </a>
             </div>
@@ -219,7 +219,7 @@
                 >
                   Follow
                 </button>
-                <a href="" class="hover:scale-105 hover:text-white">
+                <a href="#" class="hover:scale-105 hover:text-white">
                   <i
                     data-lucide="more-horizontal"
                     class="w-5 h-5 text-zinc-400"
@@ -329,14 +329,14 @@
             Show all
           </a>
         </div>
-        <div class="grid grid-cols-7 gap-4 mt-4">
+        <div class="grid grid-cols-8 gap-4 mt-4">
           <a
             href="#"
             class="bg-zinc-950/40 rounded-md flex p-4 flex-col gap-2 hover:bg-white/5 transition-colors"
           >
             <img src="./src/Screenshot_13.png" alt="#" class="h-24" />
 
-            <strong class="font-semibold">Daily Mix</strong>
+            <strong class="font-semibold">Daily Mix 1</strong>
             <span class="text-sm text-zinc-500"
               >KayBlack, Matuê, Veigh and more</span
             >
@@ -346,9 +346,9 @@
             class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
           >
             <img src="./src/Screenshot_14.png" alt="#" class="h-24" />
-            <strong class="font-semibold">Daily Mix</strong>
+            <strong class="font-semibold">Daily Mix 2</strong>
             <span class="text-sm text-zinc-500"
-              >KayBlack, Matuê, Veigh and more</span
+              >Mc Kevin, Mc Thin, Mc Livinho and more</span
             >
           </a>
           <a
@@ -356,9 +356,9 @@
             class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
           >
             <img src="./src/Screenshot_15.png" alt="#" class="h-24" />
-            <strong class="font-semibold">Daily Mix</strong>
+            <strong class="font-semibold">Daily Mix 3</strong>
             <span class="text-sm text-zinc-500"
-              >KayBlack, Matuê, Veigh and more</span
+              >Martin Garrix, Bruno Mars, B.o.B and more</span
             >
           </a>
           <a
@@ -366,9 +366,9 @@
             class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
           >
             <img src="./src/Screenshot_16.png" alt="#" class="h-24" />
-            <strong class="font-semibold">Daily Mix</strong>
+            <strong class="font-semibold">Daily Mix 4</strong>
             <span class="text-sm text-zinc-500"
-              >KayBlack, Matuê, Veigh and more</span
+              >DUX, Maverick Sabre, André Sarate and more</span
             >
           </a>
           <a
@@ -376,9 +376,9 @@
             class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
           >
             <img src="./src/Screenshot_17.png" alt="#" class="h-24" />
-            <strong class="font-semibold">Daily Mix</strong>
+            <strong class="font-semibold">Daily Mix 5</strong>
             <span class="text-sm text-zinc-500"
-              >KayBlack, Matuê, Veigh and more</span
+              >Yunk Vino,KayBlack, Teto and more</span
             >
           </a>
           <a
@@ -386,9 +386,9 @@
             class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
           >
             <img src="./src/Screenshot_18.png" alt="#" class="h-24" />
-            <strong class="font-semibold">Daily Mix</strong>
+            <strong class="font-semibold">Daily Mix 6</strong>
             <span class="text-sm text-zinc-500"
-              >KayBlack, Matuê, Veigh and more</span
+              >Lil Peep, Ken Carson, Gupa and more</span
             >
           </a>
           <a
@@ -396,16 +396,16 @@
             class="bg-zinc-950/40 p-4 rounded-md flex flex-col gap-2 hover:bg-white/5 transition-colors"
           >
             <img src="./src/Screenshot_19.png" alt="#" class="h-24" />
-            <strong class="font-semibold">Daily Mix</strong>
+            <strong class="font-semibold">Discover Weekly</strong>
             <span class="text-sm text-zinc-500"
-              >KayBlack, Matuê, Veigh and more</span
+              >You weekly mixtape of fresh music. Enjoy new..</span
             >
           </a>
         </div>
       </main>
     </div>
     <footer
-      class="bg-black h-20 px-6 py-4 flex flex-1 items-center justify-between overflow-x-hidden overflow-y-hidden"
+      class="bg-black h-1 px-4 py-4 flex flex-1 items-center justify-between overflow-x-hidden overflow-y-hidden"
     >
       <div class="flex items-center gap-3">
         <img src="./src/Screenshot_20.png" alt="" />
@@ -434,7 +434,7 @@
           >
           </i>
           <button
-            class="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black hover:scale-105"
+            class="w-8 h-8 flex items-center justify-center pl-1 rounded-full bg-white text-black hover:scale-105"
           >
             <i data-lucide="play"></i>
           </button>
